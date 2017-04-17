@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.yandex.qatools.htmlelements:htmlelements-java:1.17">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.17/c376a1adf32e7baa572d3bd15bbf019b52df8b70/htmlelements-java-1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.yandex.qatools.htmlelements/htmlelements-java/1.17/9b1d54f96ff391bac1dda58ab64953d2d8e11f53/htmlelements-java-1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

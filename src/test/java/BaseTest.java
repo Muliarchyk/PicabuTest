@@ -6,10 +6,19 @@ import core.DriverManager;
 import core.VerifyManager;
 import enums.BrowserName;
 import logger.LoggerManager;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Augmenter;
 import org.testng.annotations.*;
 import services.*;
 import services.modules.PicabuServiceModule;
 import testdata.CSVReader;
+
+import java.io.File;
+import java.io.IOException;
 
 
 /**
@@ -58,6 +67,4 @@ public class BaseTest {
     public void afterClass() throws InterruptedException {
         DriverManager.getInstance().closeDriver();
     }
-
-
 }

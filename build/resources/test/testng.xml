@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Picabu_Test" verbose="0" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="logger.Screenshot" />
+    </listeners>
+        <test name="Test_3">
+            <classes>
+                <class name="PikabuTest">
+                    <methods>
+                        <include name="loginWithGoogleAccount"/>
+                        <include name="addPostWithUnregUser"/>
+                        <include name="verifyHotPostsPage"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+        <test name="Test_4">
+            <classes>
+                <class name="PikabuTest">
+                    <methods>
+                        <include name="verifyBestPostPage"/>
+                        <include name="searchTest"/>
+                        <include name="verifyRecentPostsPage"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>

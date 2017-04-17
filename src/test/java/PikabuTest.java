@@ -1,13 +1,19 @@
 
 import core.ConfigurationManager;
+import core.DriverManager;
 import core.VerifyManager;
 import logger.LoggerManager;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 import weblayer.elements.Post;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -36,7 +42,7 @@ public class PikabuTest extends BaseTest{
 
     }
     @Test(description = "login with google account")
-    public void loginWithGoogleAccount(){
+    public void loginWithGoogleAccount() throws IOException {
         LoggerManager.getInstance().getLogger().info("Login with google account test");
         VerifyManager.getInstance().isTrue(mainPageService.isPageShown(),"Main page does not contain all items","Main page is open");
         mainPageService.openLoginTab();
@@ -167,5 +173,4 @@ public class PikabuTest extends BaseTest{
 
         VerifyManager.getInstance().getAsserter().assertAll();
     }
-
 }

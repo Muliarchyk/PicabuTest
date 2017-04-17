@@ -30,4 +30,5 @@ public class LoggerManager {
     }
 
     private final static String PREFIX_OPERATION = "OPERATION";
+
 }

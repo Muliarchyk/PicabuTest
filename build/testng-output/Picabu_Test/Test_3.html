@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Test_3</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_3</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 17 11:38:32 MSK 2017</td>
+</tr>
+<tr><td>Total time:</td><td>42 seconds (42954 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PikabuTest.addPostWithUnregUser()'><b>addPostWithUnregUser</b><br>Test class: PikabuTest<br>Test method: Adding a post for a non-login user<br/>
+<a href="#Output-2123855634" onClick='toggleBox("Output-2123855634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2123855634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2123855634">
+11:39:04 [TestNG-tests-1] INFO  - Add a post for a non-login user
+<br><br/>
+11:39:04 [TestNG-tests-1] INFO  - Main page is open
+<br><br/>
+11:39:04 [TestNG-tests-1] INFO  - Add post button is clicked
+<br><br/>
+11:39:04 [TestNG-tests-1] INFO  - Message about an unregistered user is displayed
+<br><br/>
+<p><font size="5" color="red" face="Arial">Passed</font><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>PikabuTest@10d2d490</td></tr>
+<tr>
+<td title='PikabuTest.loginWithGoogleAccount()'><b>loginWithGoogleAccount</b><br>Test class: PikabuTest<br>Test method: login with google account<br/>
+<a href="#Output-197194937" onClick='toggleBox("Output-197194937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-197194937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-197194937">
+11:38:47 [TestNG-tests-1] INFO  - Login with google account test
+<br><br/>
+11:38:47 [TestNG-tests-1] INFO  - Main page is open
+<br><br/>
+11:38:47 [TestNG-tests-1] INFO  - Login page is open
+<br><br/>
+11:38:48 [TestNG-tests-1] INFO  - Input in email field value - muliarchyk.a.a@gmail.com
+<br><br/>
+11:38:48 [TestNG-tests-1] INFO  - Click next
+<br><br/>
+11:38:48 [TestNG-tests-1] INFO  - Input in password field value - Typblcm6578090
+<br><br/>
+11:38:48 [TestNG-tests-1] INFO  - Click submit button
+<br><br/>
+11:38:58 [TestNG-tests-1] INFO  - Profile page is opened. Login is successful
+<br><br/>
+<p><font size="5" color="red" face="Arial">Passed</font><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>PikabuTest@10d2d490</td></tr>
+<tr>
+<td title='PikabuTest.verifyHotPostsPage()'><b>verifyHotPostsPage</b><br>Test class: PikabuTest<br>Test method: Verify page with hot posts<br/>
+<a href="#Output-605104583" onClick='toggleBox("Output-605104583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-605104583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-605104583">
+11:39:10 [TestNG-tests-1] INFO  - Verify page with hot posts
+<br><br/>
+11:39:10 [TestNG-tests-1] INFO  - Main page is open
+<br><br/>
+11:39:13 [TestNG-tests-1] INFO  - Page with hot posts is opened
+<br><br/>
+<p><font size="5" color="red" face="Arial">Passed</font><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>PikabuTest@10d2d490</td></tr>
+</table><p>
+</body>
+</html>

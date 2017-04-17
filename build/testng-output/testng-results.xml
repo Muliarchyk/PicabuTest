@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="10" total="16" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[11:38:47 [TestNG-tests-1] INFO  - ###############################
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:47 [TestNG-tests-1] INFO  - Login with google account test
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:47 [TestNG-tests-1] INFO  - Main page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:47 [TestNG-tests-2] INFO  - ###############################
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:47 [TestNG-tests-2] INFO  - Verify page with best posts
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:47 [TestNG-tests-1] INFO  - Login page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:48 [TestNG-tests-2] INFO  - Main page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Input in email field value - muliarchyk.a.a@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Click next
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Input in password field value - Typblcm6578090
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Click submit button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:53 [TestNG-tests-2] INFO  - Page with best posts is opened
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:53 [TestNG-tests-2] DEBUG - Clearing cache!
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-1] INFO  - Profile page is opened. Login is successful
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-1] DEBUG - Clearing cache!
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-2] INFO  - ###############################
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-2] INFO  - Search test
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-2] INFO  - Main page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-2] INFO  - input query in search field. Value = Ð”Ð¢ÐŸ
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:38:58 [TestNG-tests-2] INFO  - Click search button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:00 [TestNG-tests-2] INFO  - Page with search result is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:00 [TestNG-tests-2] INFO  - Verify search results
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:00 [TestNG-tests-2] WARN  - Post with title '??????? ??????' is not contains hashtag
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:00 [TestNG-tests-2] WARN  - Post with title '???-500 ?????? ??????? ????? ???? ??????' is not contains hashtag
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:00 [TestNG-tests-2] WARN  - Post with title '??? ????? ???? - ??????????? ??????? ? ?????? ??????????? ?????????, ??????? ??? ???? - ? ????????? ????? ??????? ?????????? ?????:' is not contains hashtag
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[./build/testng-output/screenshots/]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='screenshots/screenshot3998953404580895211.png' hight='800' width='800'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:01 [TestNG-tests-2] DEBUG - Clearing cache!
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:04 [TestNG-tests-1] INFO  - ###############################
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Add a post for a non-login user
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Main page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Add post button is clicked
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Message about an unregistered user is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:04 [TestNG-tests-1] DEBUG - Clearing cache!
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:06 [TestNG-tests-2] INFO  - ###############################
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:06 [TestNG-tests-2] INFO  - Verify page with recent posts
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:06 [TestNG-tests-2] INFO  - Main page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:09 [TestNG-tests-2] INFO  - Page with recent posts is opened
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:09 [TestNG-tests-2] DEBUG - Clearing cache!
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:10 [TestNG-tests-1] INFO  - ###############################
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:10 [TestNG-tests-1] INFO  - Verify page with hot posts
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:10 [TestNG-tests-1] INFO  - Main page is open
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:13 [TestNG-tests-1] INFO  - Page with hot posts is opened
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+    </line>
+    <line>
+      <![CDATA[11:39:13 [TestNG-tests-1] DEBUG - Clearing cache!
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Picabu_Test" duration-ms="42954" started-at="2017-04-17T08:38:32Z" finished-at="2017-04-17T08:39:15Z">
+    <groups>
+    </groups>
+    <test name="Test_4" duration-ms="40448" started-at="2017-04-17T08:38:32Z" finished-at="2017-04-17T08:39:13Z">
+      <class name="PikabuTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PikabuTest@400b222]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-17T11:38:32Z" finished-at="2017-04-17T11:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PikabuTest@400b222]" name="beforeMethod" is-config="true" duration-ms="14860" started-at="2017-04-17T11:38:32Z" finished-at="2017-04-17T11:38:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:47 [TestNG-tests-2] INFO  - ###############################
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyBestPostPage()[pri:0, instance:PikabuTest@400b222]" name="verifyBestPostPage" duration-ms="5568" started-at="2017-04-17T11:38:47Z" description="Verify page with best posts" finished-at="2017-04-17T11:38:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:47 [TestNG-tests-2] INFO  - Verify page with best posts
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:48 [TestNG-tests-2] INFO  - Main page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:53 [TestNG-tests-2] INFO  - Page with best posts is opened
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBestPostPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PikabuTest@400b222]" name="afterMethod" is-config="true" duration-ms="2452" started-at="2017-04-17T11:38:53Z" finished-at="2017-04-17T11:38:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:53 [TestNG-tests-2] DEBUG - Clearing cache!
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PikabuTest@400b222]" name="beforeMethod" is-config="true" duration-ms="2726" started-at="2017-04-17T11:38:55Z" finished-at="2017-04-17T11:38:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-2] INFO  - ###############################
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="searchTest()[pri:0, instance:PikabuTest@400b222]" name="searchTest" duration-ms="2666" started-at="2017-04-17T11:38:58Z" description="Search test" finished-at="2017-04-17T11:39:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Some posts do not contain hashtag expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Some posts do not contain hashtag expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at PikabuTest.searchTest(PikabuTest.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-2] INFO  - Search test
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-2] INFO  - Main page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-2] INFO  - input query in search field. Value = Ð”Ð¢ÐŸ
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-2] INFO  - Click search button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:00 [TestNG-tests-2] INFO  - Page with search result is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:00 [TestNG-tests-2] INFO  - Verify search results
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:00 [TestNG-tests-2] WARN  - Post with title '??????? ??????' is not contains hashtag
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:00 [TestNG-tests-2] WARN  - Post with title '???-500 ?????? ??????? ????? ???? ??????' is not contains hashtag
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:00 [TestNG-tests-2] WARN  - Post with title '??? ????? ???? - ??????????? ??????? ? ?????? ??????????? ?????????, ??????? ??? ???? - ? ????????? ????? ??????? ?????????? ?????:' is not contains hashtag
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[./build/testng-output/screenshots/]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='screenshots/screenshot3998953404580895211.png' hight='800' width='800'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PikabuTest@400b222]" name="afterMethod" is-config="true" duration-ms="2011" started-at="2017-04-17T11:39:01Z" finished-at="2017-04-17T11:39:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:01 [TestNG-tests-2] DEBUG - Clearing cache!
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PikabuTest@400b222]" name="beforeMethod" is-config="true" duration-ms="2898" started-at="2017-04-17T11:39:03Z" finished-at="2017-04-17T11:39:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:06 [TestNG-tests-2] INFO  - ###############################
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyRecentPostsPage()[pri:0, instance:PikabuTest@400b222]" name="verifyRecentPostsPage" duration-ms="3289" started-at="2017-04-17T11:39:06Z" description="Verify page with recent posts" finished-at="2017-04-17T11:39:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:06 [TestNG-tests-2] INFO  - Verify page with recent posts
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:06 [TestNG-tests-2] INFO  - Main page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:09 [TestNG-tests-2] INFO  - Page with recent posts is opened
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRecentPostsPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PikabuTest@400b222]" name="afterMethod" is-config="true" duration-ms="2958" started-at="2017-04-17T11:39:09Z" finished-at="2017-04-17T11:39:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:09 [TestNG-tests-2] DEBUG - Clearing cache!
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:PikabuTest@400b222]" name="afterClass" is-config="true" duration-ms="869" started-at="2017-04-17T11:39:12Z" finished-at="2017-04-17T11:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PikabuTest@400b222]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-04-17T11:39:13Z" finished-at="2017-04-17T11:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PikabuTest -->
+    </test> <!-- Test_4 -->
+    <test name="Test_3" duration-ms="42954" started-at="2017-04-17T08:38:32Z" finished-at="2017-04-17T08:39:15Z">
+      <class name="PikabuTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PikabuTest@10d2d490]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-17T11:38:32Z" finished-at="2017-04-17T11:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PikabuTest@10d2d490]" name="beforeMethod" is-config="true" duration-ms="14416" started-at="2017-04-17T11:38:32Z" finished-at="2017-04-17T11:38:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:47 [TestNG-tests-1] INFO  - ###############################
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithGoogleAccount()[pri:0, instance:PikabuTest@10d2d490]" name="loginWithGoogleAccount" duration-ms="10920" started-at="2017-04-17T11:38:47Z" description="login with google account" finished-at="2017-04-17T11:38:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:47 [TestNG-tests-1] INFO  - Login with google account test
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:47 [TestNG-tests-1] INFO  - Main page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:47 [TestNG-tests-1] INFO  - Login page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Input in email field value - muliarchyk.a.a@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Click next
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Input in password field value - Typblcm6578090
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:48 [TestNG-tests-1] INFO  - Click submit button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-1] INFO  - Profile page is opened. Login is successful
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithGoogleAccount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PikabuTest@10d2d490]" name="afterMethod" is-config="true" duration-ms="3191" started-at="2017-04-17T11:38:58Z" finished-at="2017-04-17T11:39:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:38:58 [TestNG-tests-1] DEBUG - Clearing cache!
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PikabuTest@10d2d490]" name="beforeMethod" is-config="true" duration-ms="2777" started-at="2017-04-17T11:39:01Z" finished-at="2017-04-17T11:39:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:04 [TestNG-tests-1] INFO  - ###############################
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addPostWithUnregUser()[pri:0, instance:PikabuTest@10d2d490]" name="addPostWithUnregUser" duration-ms="521" started-at="2017-04-17T11:39:04Z" description="Adding a post for a non-login user" finished-at="2017-04-17T11:39:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Add a post for a non-login user
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Main page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Add post button is clicked
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:04 [TestNG-tests-1] INFO  - Message about an unregistered user is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPostWithUnregUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PikabuTest@10d2d490]" name="afterMethod" is-config="true" duration-ms="2009" started-at="2017-04-17T11:39:04Z" finished-at="2017-04-17T11:39:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:04 [TestNG-tests-1] DEBUG - Clearing cache!
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PikabuTest@10d2d490]" name="beforeMethod" is-config="true" duration-ms="3520" started-at="2017-04-17T11:39:06Z" finished-at="2017-04-17T11:39:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:10 [TestNG-tests-1] INFO  - ###############################
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHotPostsPage()[pri:0, instance:PikabuTest@10d2d490]" name="verifyHotPostsPage" duration-ms="3075" started-at="2017-04-17T11:39:10Z" description="Verify page with hot posts" finished-at="2017-04-17T11:39:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:10 [TestNG-tests-1] INFO  - Verify page with hot posts
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:10 [TestNG-tests-1] INFO  - Main page is open
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[11:39:13 [TestNG-tests-1] INFO  - Page with hot posts is opened
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<p><font size="5" color="red" face="Arial">Passed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHotPostsPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PikabuTest@10d2d490]" name="afterMethod" is-config="true" duration-ms="1823" started-at="2017-04-17T11:39:13Z" finished-at="2017-04-17T11:39:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11:39:13 [TestNG-tests-1] DEBUG - Clearing cache!
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:PikabuTest@10d2d490]" name="afterClass" is-config="true" duration-ms="685" started-at="2017-04-17T11:39:14Z" finished-at="2017-04-17T11:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PikabuTest@10d2d490]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-17T11:39:15Z" finished-at="2017-04-17T11:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PikabuTest -->
+    </test> <!-- Test_3 -->
+  </suite> <!-- Picabu_Test -->
+</testng-results>

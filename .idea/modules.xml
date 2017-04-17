@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Automated_Picabu_Test.iml" filepath="$PROJECT_DIR$/Automated_Picabu_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pikabu_Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Pikabu_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pikabu_Test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Pikabu_Test_main.iml" group="Pikabu_Test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pikabu_Test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Pikabu_Test_test.iml" group="Pikabu_Test" />
     </modules>
   </component>
 </project>

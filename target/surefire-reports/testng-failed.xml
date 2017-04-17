@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Picabu_Test]" parallel="tests">
+  <test name="Test_3(failed)" parallel="tests">
+    <classes>
+      <class name="PikabuTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verifyHotPostsPage"/>
+          <include name="addPostWithUnregUser"/>
+          <include name="loginWithGoogleAccount"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- PikabuTest -->
+    </classes>
+  </test> <!-- Test_3(failed) -->
+  <test name="Test_4(failed)" parallel="tests">
+    <classes>
+      <class name="PikabuTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="searchTest"/>
+          <include name="verifyBestPostPage"/>
+          <include name="beforeMethod"/>
+          <include name="verifyRecentPostsPage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- PikabuTest -->
+    </classes>
+  </test> <!-- Test_4(failed) -->
+</suite> <!-- Failed suite [Picabu_Test] -->

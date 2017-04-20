@@ -38,7 +38,7 @@ public class Input extends CustomElement {
         }
     }
 
-    private String getText() {
+    public String getText() {
         if("textarea".equals(getWrappedElement().getTagName())) {
             throw new NotFoundException("'" + this.toString() + "' NOT FOUND!");
         } else {

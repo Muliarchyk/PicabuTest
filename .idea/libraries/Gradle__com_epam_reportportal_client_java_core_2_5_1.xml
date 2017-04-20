@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:client-java-core:2.5.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/client-java-core/2.5.1/2abf3c6f69ada7ccb2832dd6626268b8ee42876f/client-java-core-2.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/client-java-core/2.5.1/361ad43b4ca03ee7991930612892074f3fc707df/client-java-core-2.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

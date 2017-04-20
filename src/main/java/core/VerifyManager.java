@@ -11,7 +11,7 @@ public class VerifyManager {
     private static VerifyManager instance;
     private ThreadSafeContainer<SoftAssert> softAssertContainer = new ThreadSafeContainer<>();
 
-    public static VerifyManager getInstance(){
+    public static synchronized VerifyManager getInstance(){
         if (instance == null){
             instance = new VerifyManager();
         }
@@ -21,10 +21,10 @@ public class VerifyManager {
         softAssertContainer.clearContainer();
     }
 
-    public void isTrue(boolean condition, String messageWhenFail,String messageWhenOk) {
+    public void isTrue(boolean condition) {
         if(!condition){
-            getAsserter().fail(messageWhenFail);
-        } else LoggerManager.getInstance().getLogger().info(messageWhenOk);
+            getAsserter().fail();
+        }
     }
 
     public SoftAssert getAsserter(){

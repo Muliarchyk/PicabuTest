@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:commons-model:2.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/commons-model/2.6.0/e4345e8e4e903785669a8fa380a0d1e940b3a0c7/commons-model-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/commons-model/2.6.0/99aaada82b531debe185a125caf9ae757147f709/commons-model-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

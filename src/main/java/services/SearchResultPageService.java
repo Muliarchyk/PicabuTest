@@ -1,6 +1,7 @@
 package services;
 
 import com.google.inject.Provider;
+import logger.LoggerManager;
 import org.openqa.selenium.WebElement;
 import services.interfaces.ISearchResultPageService;
 import weblayer.elements.Input;
@@ -25,8 +26,10 @@ public class SearchResultPageService implements ISearchResultPageService{
     public boolean isPageShown() {
         Input searchQuery = getPage().getSearchQuery();
         if(searchQuery.isDisplayed()){
+            LoggerManager.getInstance().getLogger().info("Page with search results is open.");
             return true;
         }else {
+            LoggerManager.getInstance().getLogger().info("Page with search results does not contain all items!");
             return false;
         }
     }
@@ -49,5 +52,25 @@ public class SearchResultPageService implements ISearchResultPageService{
     @Override
     public List<WebElement> getHashtags(Post post) {
         return post.getHashtagsList();
+    }
+
+    @Override
+    public boolean verifySearchResult(String query) {
+        boolean isAllElementsContainsHashTags = true;
+        List<Post> posts = getPostsList();
+        for (int i=0;i<posts.size()-1;i++){
+            boolean isContainsHashtag = false;
+            for (WebElement hashtag:posts.get(i).getHashtagsList()){
+                if(hashtag.getText().contains(query)){
+                    isContainsHashtag = true;
+                    break;
+                }
+            }
+            if(!isContainsHashtag){
+                isAllElementsContainsHashTags = false;
+                LoggerManager.getInstance().getLogger().warn("Post with title '"+posts.get(i).getTitle().getText()+"' is not contains hashtag");
+            }
+        }
+        return isAllElementsContainsHashTags;
     }
 }

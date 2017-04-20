@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:commons-codec-repacked:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/commons-codec-repacked/1.0.1/e7e4d25420f6901eec4ef9c23570df43f821f0da/commons-codec-repacked-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/commons-codec-repacked/1.0.1/3298016d26fdb1fa3dda5abcd2626fd14fc16f60/commons-codec-repacked-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

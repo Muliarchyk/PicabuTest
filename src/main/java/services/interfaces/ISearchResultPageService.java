@@ -15,4 +15,5 @@ public interface ISearchResultPageService {
     Post getPost(int index);
     Post getPostbySubstringInTitle(String substring);
     List<WebElement> getHashtags(Post post);
+    boolean verifySearchResult(String query);
 }

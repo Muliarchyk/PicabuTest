@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:logger-java-logback:2.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/logger-java-logback/2.6.0/4c9167b9753a9b103b66aca2b1d29e4ed4b3e7c5/logger-java-logback-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/logger-java-logback/2.6.0/b10f1c2a3b5805890b30a85d35992fa96af8191f/logger-java-logback-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

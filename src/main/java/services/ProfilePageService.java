@@ -2,6 +2,7 @@ package services;
 
 import com.google.inject.Inject;
 import com.google.inject.Provider;
+import logger.LoggerManager;
 import services.interfaces.IProfilePageService;
 import weblayer.elements.CButton;
 import weblayer.elements.Label;
@@ -44,23 +45,30 @@ public class ProfilePageService implements IProfilePageService {
                 & userComments.isDisplayed()
                 & userMarks.isDisplayed()
                 & userSavedPosts.isDisplayed()){
+            LoggerManager.getInstance().getLogger().info("Profile page is open.");
             return true;
-        } else return false;
+        } else{
+            LoggerManager.getInstance().getLogger().info("Profile page does not contain all items!");
+            return false;
+        }
     }
 
     @Override
     public void openProfile() {
         getPage().getUserName().click();
+        LoggerManager.getInstance().getLogger().info("Profile button clicked.");
     }
 
     @Override
     public void openNotification() {
         getPage().getUserNotification().click();
+        LoggerManager.getInstance().getLogger().info("Notification button clicked.");
     }
 
     @Override
     public void logout() {
         getPage().getLogout().click();
+        LoggerManager.getInstance().getLogger().info("Logout button clicked.");
     }
 
     @Override
@@ -76,11 +84,13 @@ public class ProfilePageService implements IProfilePageService {
     @Override
     public void editProfile() {
         getPage().getEditUserProfile().click();
+        LoggerManager.getInstance().getLogger().info("Edit profile button clicked.");
     }
 
     @Override
     public void openUserList() {
         getPage().getUserList().click();
+        LoggerManager.getInstance().getLogger().info("User list button clicked.");
     }
 
     @Override
@@ -91,25 +101,30 @@ public class ProfilePageService implements IProfilePageService {
     @Override
     public void openUserPosts() {
         getPage().getUserPosts().click();
+        LoggerManager.getInstance().getLogger().info("User posts button clicked.");
     }
 
     @Override
     public void openUserMessages() {
         getPage().getUserMessages().click();
+        LoggerManager.getInstance().getLogger().info("User messages button clicked.");
     }
 
     @Override
     public void openComments() {
         getPage().getUserComments().click();
+        LoggerManager.getInstance().getLogger().info("Comments button clicked.");
     }
 
     @Override
     public void openMarkedPosts() {
         getPage().getUserMarks().click();
+        LoggerManager.getInstance().getLogger().info("Marked posts button clicked.");
     }
 
     @Override
     public void openSavedPosts() {
         getPage().getUserSavedPosts().click();
+        LoggerManager.getInstance().getLogger().info("Saver posts button clicked.");
     }
 }

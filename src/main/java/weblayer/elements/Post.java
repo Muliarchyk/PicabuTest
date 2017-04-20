@@ -46,9 +46,20 @@ public class Post extends CustomElement {
     public WebElement postRatingDown(){
         return getWrappedElement().findElement(By.xpath(".//div[@class='story__rating-down']"));
     }
+    public WebElement hidePostButton(){
+        return getWrappedElement().findElement(By.xpath(".//div[contains(@class,'story__slide-up')]"));
+    }
+    public WebElement postContent(){
+        return getWrappedElement().findElement(By.xpath(".//div[contains(@class,'story__wrapper')]"));
+    }
+
+    public void hidePost(){
+        hidePostButton().click();
+    }
     public void open(){
         getTitle().click();
     }
+
 
     public boolean isDisplayed(){
         if(!isExist()){

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:agent-java-testng:2.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/agent-java-testng/2.6.0/88789d208ecdff49f6278b562008b94edb5c79bd/agent-java-testng-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/agent-java-testng/2.6.0/7fc4b0b8c722010df7daa4f50db1b15ba8dbdc12/agent-java-testng-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

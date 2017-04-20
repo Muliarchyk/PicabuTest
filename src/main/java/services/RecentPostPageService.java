@@ -1,6 +1,7 @@
 package services;
 
 import com.google.inject.Provider;
+import logger.LoggerManager;
 import services.interfaces.IRecentPostPageService;
 import weblayer.elements.CButton;
 import weblayer.elements.Post;
@@ -25,8 +26,10 @@ public class RecentPostPageService implements IRecentPostPageService {
         CButton viewMod = getPage().getViewMod();
         if (sortByDay.isDisplayed()
                 & viewMod.isDisplayed()) {
+            LoggerManager.getInstance().getLogger().info("Page with recent posts is open.");
             return true;
         }else {
+            LoggerManager.getInstance().getLogger().info("Page with recent posts does not contain all items!");
             return false;
         }
     }

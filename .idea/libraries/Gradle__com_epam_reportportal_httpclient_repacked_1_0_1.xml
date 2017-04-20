@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.epam.reportportal:httpclient-repacked:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/httpclient-repacked/1.0.1/d6fd422ded9fe3503ba34262ca4ce3175d3d23e6/httpclient-repacked-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.epam.reportportal/httpclient-repacked/1.0.1/cc9258c801b38c0a12260b3f42af16a9281d3930/httpclient-repacked-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

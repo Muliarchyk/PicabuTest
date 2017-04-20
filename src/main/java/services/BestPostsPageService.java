@@ -2,6 +2,7 @@ package services;
 
 import com.google.inject.Inject;
 import com.google.inject.Provider;
+import logger.LoggerManager;
 import services.interfaces.IBestPostsPageService;
 import weblayer.elements.CButton;
 import weblayer.elements.Post;
@@ -28,8 +29,10 @@ public class BestPostsPageService implements IBestPostsPageService {
         if (sortByDay.isDisplayed()
                 & viewMod.isDisplayed()
                 & !posts.isEmpty()){
+            LoggerManager.getInstance().getLogger().info("Page with best posts is open.");
             return true;
         }else{
+            LoggerManager.getInstance().getLogger().info("Page with best posts does not contain all items!");
             return false;
         }
     }

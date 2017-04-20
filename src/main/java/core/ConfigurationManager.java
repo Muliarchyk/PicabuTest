@@ -11,7 +11,7 @@ import java.util.Properties;
 public class ConfigurationManager {
     private static ConfigurationManager instance;
 
-    public static ConfigurationManager getInstance(){
+    public synchronized static ConfigurationManager getInstance(){
         if(instance == null){
             instance = new ConfigurationManager();
             instance.provide();
@@ -24,13 +24,14 @@ public class ConfigurationManager {
     private String AUTHORIZATION_PASSWORD;
     private String GOOGLE_AUTHORIZATION_EMAIL;
     private String GOOGLE_AUTHORIZATION_PASSWORD;
+    private String PATH_SCREENSHOTS;
 
     private Properties prop = new Properties();
     InputStream input = null;
 
     private void provide() {
         try {
-            input = new FileInputStream("Configuration.properties");
+            input = new FileInputStream("src/test/resources/Configuration.properties");
 
             prop.load(input);
             BROWSER = prop.getProperty("BROWSER");
@@ -38,6 +39,7 @@ public class ConfigurationManager {
             AUTHORIZATION_PASSWORD = prop.getProperty("AUTHORIZATION_PASSWORD");
             GOOGLE_AUTHORIZATION_EMAIL = prop.getProperty("GOOGLE_AUTHORIZATION_EMAIL");
             GOOGLE_AUTHORIZATION_PASSWORD = prop.getProperty("GOOGLE_AUTHORIZATION_PASSWORD");
+            PATH_SCREENSHOTS = prop.getProperty("PATH_SCREENSHOTS");
 
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -69,5 +71,9 @@ public class ConfigurationManager {
 
     public String getGOOGLE_AUTHORIZATION_PASSWORD() {
         return GOOGLE_AUTHORIZATION_PASSWORD;
+    }
+
+    public String getPATH_SCREENSHOTS() {
+        return PATH_SCREENSHOTS;
     }
 }

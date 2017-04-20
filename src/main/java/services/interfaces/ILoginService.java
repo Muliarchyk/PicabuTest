@@ -9,5 +9,5 @@ public interface ILoginService {
         void inputLogin(String login);
         void inputPassword(String password);
         void clickSubmit();
-        void loginWithGoogleAccount();
+        void clickGoogleAccountButton();
 }

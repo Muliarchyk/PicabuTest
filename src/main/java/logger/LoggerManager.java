@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class LoggerManager {
     private static LoggerManager instance;
 
-    public static LoggerManager getInstance(){
+    public static synchronized LoggerManager getInstance(){
         if(instance == null){
             instance = new LoggerManager();
         }
@@ -30,4 +30,5 @@ public class LoggerManager {
     }
 
     private final static String PREFIX_OPERATION = "OPERATION";
+
 }
